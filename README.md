@@ -13,7 +13,6 @@ patterns, causes, and county-level risk across the state.
 
 ### 1. Download the Project Files
 
-- Go to the shared Google Drive link
 - Download the folder and extract the ZIP file
 
 ### 2. Open the Project
@@ -43,7 +42,7 @@ We have 3 types of files in this project:
 | `post_dataset` | CSV | Cleaned data — used for MySQL and analysis |
 | `clean_dataset` | Python | Cleaning scripts — removes columns, fixes missing values |
 
-**Import post_dataset2 as `fire_incidents`:**
+**Import `post_dataset2` as `fire_incidents`:**
 
 - Right-click on `wildfire_db` in the left panel
 - Click **Table Data Import Wizard**
@@ -56,7 +55,7 @@ Verify import:
 SELECT * FROM fire_incidents;
 ```
 
-**Import post_dataset3 as `fire_perimeters`:**
+**Import `post_dataset3` as `fire_perimeters`:**
 
 - Same steps as above
 - Select `post_dataset3.csv`
