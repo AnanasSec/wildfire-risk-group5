@@ -20,7 +20,9 @@ patterns, causes, and county-level risk across the state.
 
 - Open the project folder in VS Code
 - Open a terminal and install dependencies:
+```python
 pip install streamlit pandas pymysql matplotlib plotly
+```
 
 ### 3. MySQL Setup
 
@@ -115,7 +117,9 @@ conn = pymysql.connect(
 ### 7. Run the Dashboard
 
 In the terminal:
+```python
 streamlit run app.py
+```
 
 The dashboard will open in your browser. Use the left sidebar to navigate between the 5 project sections.
 
